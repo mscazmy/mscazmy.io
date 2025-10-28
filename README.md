@@ -1,0 +1,2 @@
+# mscazmy.io
+personal blog

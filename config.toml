@@ -1,0 +1,55 @@
+baseURL = "https://amber.rbind.io/"
+languageCode = "en-us"
+title = "Amber Thomas Data Portfolio & Blog"
+theme = "data-science"
+disqusShortname = "amberthomas"
+enableEmoji = true
+# allow search engines to search/crawl everything
+enableRobotsTXT = true
+
+preserveTaxonomyNames = true
+
+# sectionPagesMenu = "main"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+  category = "categories"
+
+[params]
+  author = "Amber Thomas"
+  description = "A collection of my data science projects and blog posts about R, d3, and everything in between."
+  twitterAuthor = "@ProQuesAsker"
+  twitterSite = "@ProQuesAsker"
+  images = ['logo.jpg']
+
+  # options for highlight.js (version, additional languages, and theme)
+  highlight = true
+  highlightjsVersion = "9.15.6"
+  highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+  highlightjsLang = ["r", "yaml", "javascript"]
+  custom = true
+  highlightjsThemeLight = ""
+  highlightjsThemeDark = ""
+
+
+
+
+
+[params.social]
+  email = "mailto:AmberThomasMSc@gmail.com"
+  twitter = "https://twitter.com/ProQuesAsker"
+  github = "https://www.github.com/ProQuestionAsker"
+  linkedin = "https://www.linkedin.com/in/amberrthomas/"
+  stackoverflow = ""
+  facebook = ""
+  instagram = ""
+  dribbble = ""
+  kaggle = ""
+  medium = ""
+  patreon = ""
+  pinterest = ""
+  youtube = ""
