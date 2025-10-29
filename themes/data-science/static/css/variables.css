@@ -13,22 +13,20 @@
   --slowFade: 0.3s ease;
   --radius: 5px;
 }
-
 body.light{
-  --accent: #C81937; /* magenta */
-  --content: #1A2849; /* dark blue */
-  --tertiary: #696E84; /* mid blue */
-  --page: #FBE0DE; /* light pink */
-  --drawer: #F4BAB7;
-  --mainShadow: 0px 2px 3px rgba(137, 21, 35, 0.3);
-  --mainShadowHover: 0px 10px 20px rgba(137, 21, 35, 0.2);
-  --elevation: #FEF9F8; /* very light pink */
+  --accent: #2B7EC1; /* bright blue */
+  --content: #1A3A52; /* dark blue */
+  --tertiary: #5B7C99; /* mid blue */
+  --page: #E3F2FD; /* light blue */
+  --drawer: #BBDEFB;
+  --mainShadow: 0px 2px 3px rgba(43, 126, 193, 0.3);
+  --mainShadowHover: 0px 10px 20px rgba(43, 126, 193, 0.2);
+  --elevation: #F5FAFF; /* very light blue */
   --elevationHover: #FFFFFF; /* white */
-  --introGradient: linear-gradient(180deg, #FDF0EF 0%, var(--page) 100%);
+  --introGradient: linear-gradient(180deg, #F0F8FF 0%, var(--page) 100%);
   --codeBG: #FFFFFF;
-  --codeFont: #C81937;
+  --codeFont: #2B7EC1;
 }
-
 body.dark{
   --accent: #FFCAD3; /* light pink */ /*#FFF9F9;*/ /* cream */
   --content: #FFF9F9; /* cream */
@@ -43,7 +41,6 @@ body.dark{
   --codeBG: rgba(37, 45, 62, 0.4);
   --codeFont: #82B4E3;
 }
-
 body{
   --focus: 0 0 3px 1px var(--accent); /* accessible glow */
   --drawerGradient: linear-gradient(270deg, var(--drawer) 0%, rgba(122,122,122,0) 2%, rgba(122,122,122,0) 98%, var(--drawer) 100%);
