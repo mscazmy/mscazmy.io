@@ -1,6 +1,6 @@
-baseURL = "https://amber.rbind.io/"
+baseURL = "https://mscazmy.github.io/"
 languageCode = "en-us"
-title = "Amber Thomas Data Portfolio & Blog"
+title = "AHMED AZEEZ"
 theme = "data-science"
 disqusShortname = "amberthomas"
 enableEmoji = true
