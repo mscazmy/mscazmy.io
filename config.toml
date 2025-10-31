@@ -20,7 +20,7 @@ preserveTaxonomyNames = true
   category = "categories"
 
 [params]
-  author = "Amber Thomas"
+  author = "Ahmed Azeez"
   description = "A collection of my data science projects and blog posts about R, d3, and everything in between."
   twitterAuthor = "@ProQuesAsker"
   twitterSite = "@ProQuesAsker"
